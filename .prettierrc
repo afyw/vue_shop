@@ -1,4 +1,9 @@
 {
+    "singleQuote": true,
     "semi": false,
-    "singleQuote": true
+    "bracketSpacing": true,
+    "htmlWhitespaceSensitivity": "ignore",
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "files.insertFinalNewline": true,
+    "printWidth": 80
 }

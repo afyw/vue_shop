@@ -3,10 +3,7 @@
     <div class="login_box">
       <!-- 头像区域 -->
       <div class="avatar_box">
-        <img
-          src="../assets/logo.png"
-          alt=""
-        >
+        <img src="../assets/logo.png" alt="" />
       </div>
       <!-- 登录表单区域 -->
       <el-form
@@ -34,16 +31,9 @@
 
         <!-- 按钮区域 -->
         <el-form-item class="btns">
-          <el-button
-            type="primary"
-            @click="login"
-          >登录</el-button>
-          <el-button
-            type="info"
-            @click="resetLoginForm"
-          >重置</el-button>
+          <el-button type="primary" @click="login">登录</el-button>
+          <el-button type="info" @click="resetLoginForm">重置</el-button>
         </el-form-item>
-
       </el-form>
     </div>
   </div>
