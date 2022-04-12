@@ -447,6 +447,11 @@ export default {
     setRoleDialogClosed() {
         this.selectdRoleId = ''
         this.userInfo = ''
+    },
+
+    // 显示编辑对话框
+    showEditCateDialog() {
+
     }
   },
 }

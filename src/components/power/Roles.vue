@@ -57,7 +57,7 @@
                   <el-col :span="18">
                     <el-tag
                       type="warning"
-                      v-for="(item3, i3) in item2.children"
+                      v-for="item3 in item2.children"
                       :key="item3.id"
                       closable
                       @close="removeRightById(scope.row, item3.id)"
@@ -183,8 +183,6 @@
         <el-button type="primary" @click="allotRights">确 定</el-button>
       </span>
     </el-dialog>
-
-
   </div>
 </template>
 
@@ -225,9 +223,9 @@ export default {
         roleName: [
           { required: true, message: '请输入角色名称', trigger: 'blur' },
           {
-            min: 3,
+            min: 2,
             max: 10,
-            message: '长度在 3 到 10 个字符',
+            message: '长度在 2 到 10 个字符',
             trigger: 'blur',
           },
         ],
@@ -248,7 +246,6 @@ export default {
       defKeys: [],
       //   当前即将分配角色的id
       roleId: '',
-    
     }
   },
   created() {

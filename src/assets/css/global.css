@@ -22,3 +22,11 @@ html, body, #app{
 .el-pagination {
     margin-top: 15px;
 }
+
+/* 设置级联样式 */
+.el-cascader-menu {
+    max-height: 200px;
+}
+.el-scrollbar__wrap{
+    overflow-x: hidden;
+  }
